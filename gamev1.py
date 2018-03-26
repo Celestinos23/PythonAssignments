@@ -22,7 +22,7 @@ def Manual(): #What the game does and how to win it.
 
 Introduction()
 
-time.sleep(1) #Wait two seconds and print manual
+time.sleep(2) #Wait two seconds and print manual
 Manual()
 
 
@@ -47,15 +47,15 @@ class Enemy(Character):
     def __init__(self, player):
         super().__init__()
         self.name = 'Poacher'
-        self.hp = randint(1, 30)
+        self.hp = randint(1, 20)
 
 
 class Player(Character):
     def __init__(self):
         super().__init__()
         self.state = 'normal'
-        self.hp = 100
-        self.hp_max = 100
+        self.hp = 20
+        self.hp_max = 20
 
     def quit(self):
         print ('{} All the animals were caught by the poachers \nR.I.P.'.format(self.name))
