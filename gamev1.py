@@ -16,7 +16,7 @@ What they don't expect is the jungle animals coming together to fight back and s
 
 
 def Manual(): #What the game does and how to win it.
-    print('''This is a text based game where you fight poachers as a Gorilla. Scare 2 of them to win the game!''')
+    print('''This is a text based game where you fight poachers as a Gorilla. Scare 5 of them to win the game!''')
 
 
 
